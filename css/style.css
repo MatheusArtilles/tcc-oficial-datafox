@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+    background: #000;
+}
+body .navbar {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #444;
+    
+}
+body .navbar .container-fluid .navbar-brand img{
+    width: 90px;
+    height: 80px;
+}
+body .navbar .container-fluid .navbar-toggler {
+    outline: none;
+    border-color: #fff;
+}
+body .navbar .container-fluid .navbar-toggler .navbar-toggler-icon {
+    color: #fff;
+}
+body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav{
+    width: 95%;
+    display: flex;
+    justify-content: end;
+}
+body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-weight: 600;
+}
