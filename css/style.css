@@ -22,10 +22,11 @@ body .navbar .container-fluid .navbar-brand img{
 }
 body .navbar .container-fluid .navbar-toggler {
     outline: none;
-    border-color: #fff;
+    border: none;
 }
-body .navbar .container-fluid .navbar-toggler .navbar-toggler-icon {
+body .navbar .container-fluid .navbar-toggler #btn-menu-icon {
     color: #fff;
+    font-size: 30px;
 }
 body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav{
     width: 95%;
@@ -44,4 +45,7 @@ body #section-banner {
     align-items: center;
     justify-content: center;
     background-color: #222;
+}
+body #section-banner #carouselExample .carousel-inner .carousel-item img {
+    border-radius: 15px;
 }
