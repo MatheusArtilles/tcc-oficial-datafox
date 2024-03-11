@@ -158,3 +158,58 @@ body #section-3 #cards-sect-3 .card-sect-3 .text-card-3 p {
     width: 80%;
     font-size: 0.8rem;
 }
+body #section-4 {
+    margin-top: 20px;
+    width: 100vw;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    background-color: #f1f1f1;
+}
+body #section-4 h4 {
+    text-align: center;
+    color: #111;
+}
+body #section-4 h5 {
+    text-align: center;
+}
+body #section-4 #cards-sect-4 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body #section-4 #cards-sect-4 .card-sect-4 {
+    width: 300px;
+    height: 300px;
+    background-color: #f2f2f2;
+    border: 1px solid #222;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+body #section-4 #cards-sect-4 .card-sect-4 h4 {
+    margin-top: 20px;
+}
+body #section-4 #cards-sect-4 .card-sect-4 h5 {
+    margin-top: 20px;
+}
+body #section-4 #cards-sect-4 .card-sect-4 p {
+    width: 80%;
+    margin-top: 20px;
+}
+
+
+@media  (max-width: 700px) {
+    body #section-3 #cards-sect-3 .card-sect-3 {
+        margin-left: 40px;
+    }
+}
+@media (max-with: 400px) {
+    body #section-3 #cards-sect-3 .card-sect-3 {
+        margin-left: 0px;
+    }
+}
