@@ -256,7 +256,19 @@ body #section-6 .cards-sect-6 .card-sect-6 p {
     width: 90%;
     margin-left: 15px;
 }
-
+footer {
+    width: 100vw;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: #000;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a.social-media {
+    font-size: 1.2rem;
+}
 @media  (max-width: 700px) {
     body #section-3 #cards-sect-3 .card-sect-3 {
         margin-left: 40px;
