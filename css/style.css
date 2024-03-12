@@ -161,7 +161,7 @@ body #section-3 #cards-sect-3 .card-sect-3 .text-card-3 p {
 body #section-4 {
     margin-top: 20px;
     width: 100vw;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     padding-top: 20px;
     background-color: #f1f1f1;
 }
@@ -183,7 +183,7 @@ body #section-4 #cards-sect-4 .card-sect-4 {
     width: 300px;
     height: 300px;
     background-color: #f2f2f2;
-    border: 1px solid #222;
+    border: 2px solid #222;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
@@ -201,7 +201,61 @@ body #section-4 #cards-sect-4 .card-sect-4 p {
     width: 80%;
     margin-top: 20px;
 }
-
+body #section-5 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    background-color: #111;
+    color: #fff;
+}
+body #section-5 h4 span {
+    color: yellow;
+}
+body #section-5 .area-conteudo {
+    margin-top: 40px;
+}
+body #section-5 .area-conteudo .area-img img {
+    border-radius: 20px;
+}
+body #section-5 .area-conteudo .area-txt {
+    margin-top: 40px;
+}
+body #section-6 {
+    background-color: #111;
+    color: #fff;
+    width: 100vw;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body #section-6 .cards-sect-6{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+body #section-6 .cards-sect-6 .card-sect-6{
+    width: 250px;
+    height: 200px;
+    background-color: #000;
+    box-shadow: 2px 1px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+body #section-6 .cards-sect-6 .card-sect-6 p {
+    width: 90%;
+    margin-left: 15px;
+}
 
 @media  (max-width: 700px) {
     body #section-3 #cards-sect-3 .card-sect-3 {
