@@ -1,0 +1,21 @@
+body {
+    background: none;
+}
+main {
+    padding-top: 200px;
+    padding-bottom: 40px;
+    width: 100vw;
+    background-color: #222;
+    color: #fff;
+}
+main section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main section p {
+    width: 60%;
+    margin-top: 20px;
+    font-size: 1.3rem;
+}
