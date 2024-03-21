@@ -40,9 +40,28 @@ body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav{
     justify-content: end;
 }
 body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav .nav-item .nav-link{
+    position: relative;
     color: #fff;
     font-weight: 600;
     font-size: 0.9rem;
+}
+body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav .nav-item .nav-link::before{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 8px;
+    content: '';
+    height: 3px;
+    background-color: yellow;
+    width: 0;
+
+}
+body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav .nav-item .nav-link:hover{
+    color: #ccc;
+    transition: all ease-in-out .6s;
+}
+body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav .nav-item .nav-link:hover::before{
+    width: 90%;
+    transition: all ease-in-out .6s;
 }
 body #section-banner {
     width: 100vw;
