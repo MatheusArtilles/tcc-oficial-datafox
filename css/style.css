@@ -42,6 +42,7 @@ body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav{
 body .navbar .container-fluid #navbarTogglerDemo03 .navbar-nav .nav-item .nav-link{
     color: #fff;
     font-weight: 600;
+    font-size: 0.9rem;
 }
 body #section-banner {
     width: 100vw;
