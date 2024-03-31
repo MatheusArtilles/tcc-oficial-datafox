@@ -218,6 +218,11 @@ body #section-4 #cards-sect-4 .card-sect-4 h4 {
 body #section-4 #cards-sect-4 .card-sect-4 h5 {
     margin-top: 20px;
 }
+body #section-4 #cards-sect-4 .card-sect-4 h5.gympass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 body #section-4 #cards-sect-4 .card-sect-4 p {
     width: 80%;
     margin-top: 20px;
